@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buurman Bas</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2F5E4E;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            color: #2F5E4E;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .contact {
+            background: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2F5E4E;
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2F5E4E;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #24493c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Buurman Bas</h1>
+    <p>Een helpende hand, gewoon om de hoek</p>
+</header>
+
+<section>
+    <h2>Welkom</h2>
+
+    <p>
+        Soms zijn er van die klusjes die blijven liggen. Omdat het lastig is,
+        omdat de tijd ontbreekt of omdat het simpelweg niet meer lukt.
+    </p>
+
+    <p>
+        Buurman Bas helpt graag met kleine klusjes in en om het huis.
+        Betrouwbaar, zorgvuldig en met aandacht uitgevoerd.
+    </p>
+
+    <p><strong>Mijn motto:</strong> "Alsof het voor mezelf is."</p>
+</section>
+
+<section>
+    <h2>Waarmee kan ik helpen?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>In huis</h3>
+            <ul>
+                <li>Lampen ophangen</li>
+                <li>Kasten monteren</li>
+                <li>Planken bevestigen</li>
+                <li>Kleine reparaties</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Technische hulp</h3>
+            <ul>
+                <li>Computer instellen</li>
+                <li>Printer aansluiten</li>
+                <li>Telefoonhulp</li>
+                <li>Wifi-problemen</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Rondom huis</h3>
+            <ul>
+                <li>Kleine tuinwerkzaamheden</li>
+                <li>Monteren van buitenverlichting</li>
+                <li>Herstelwerkzaamheden</li>
+                <li>Overige kleine klusjes</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Werkwijze</h2>
+
+    <p>
+        Buurman Bas is geen groot klusbedrijf.
+        Het doel is om mensen te helpen met kleine werkzaamheden
+        die zij zelf niet kunnen uitvoeren.
+    </p>
+
+    <p>
+        Er wordt een vergoeding gevraagd voor gemaakte kosten,
+        zoals brandstof, materialen en gebruik van gereedschap.
+    </p>
+</section>
+
+<section>
+    <div class="contact">
+
+        <h2>Contact</h2>
+
+        <p>
+            Heeft u een klusje waar u hulp bij kunt gebruiken?
+            Neem gerust contact op.
+        </p>
+
+        <p>
+            📞 06-12345678<br>
+            ✉ info@buurmanbas.nl
+        </p>
+
+        info@buurmanbas.nl
+            Stuur een bericht
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Buurman Bas
+</footer>
+
+</body>
+</html>
